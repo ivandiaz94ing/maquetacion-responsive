@@ -20,6 +20,13 @@
     font-family: montserrat;
 
 }
+
+@media (min-width: px) { 
+    .item{
+        flex: 0 0 50%;
+    }
+}
+
 @media (min-width: 576px) { 
     .item{
         flex: 0 0 50%;
