@@ -1,4 +1,4 @@
-# maquetacion-responsive-artesanal
+# maquetacion-responsive
 
 Aprendiendo sobre css desing y bootstrap
 Se creo una tabla responsive con css y otra con las mismas caracteristicas con el framework Bootstrap
