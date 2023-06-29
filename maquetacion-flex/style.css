@@ -1,9 +1,45 @@
 .container{
+    margin: auto;
     max-width: 1200px;
-    background-color: salmon;
 }
 *,
 *::after,
 *::before{
     box-sizing: border-box;
 }
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.item{
+    border: thin solid gray;
+    flex: 0 0 100%;
+    font-family: montserrat;
+
+}
+@media (min-width: 576px) { 
+    .item{
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .item{
+        flex: 0 0 33.33333333%;
+    }
+ }
+
+@media (min-width: 992px) {
+    .item{
+        flex: 0 0 25%;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .item{
+        flex: 0 0 16.666667%;
+    }
+ }
