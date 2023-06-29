@@ -1,7 +1,7 @@
 # maquetacion-responsive-artesanal
 
 Aprendiendo sobre css desing y bootstrap
-Se creo una tabla responsibe con css y otra con las mismas caracteristicas con el framework Bootstrap
+Se creo una tabla responsive con css y otra con las mismas caracteristicas con el framework Bootstrap
 
 ## Contacto
 
